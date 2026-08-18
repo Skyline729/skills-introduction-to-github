@@ -1,0 +1,13 @@
+<template>
+  <div class="product-card">
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <span>¥{{ product.price }}</span>
+  </div>
+</template>
+
+<script setup>
+defineProps({
+  product: Object
+})
+</script>
